@@ -88,6 +88,6 @@ def delete_user(full_name):
 #The are to add to the database and check the user info.
 
 # print(query_all())
-#add_user(123456, 'Resident A', 'Resident.A', 'Password', False, False, None, None))
+#add_user(123456, 'Resident A', 'Resident.A', 'Password', True, True, None, None))
 
 # print(get_admin_from_database('Resident.A'))
