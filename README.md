@@ -17,8 +17,8 @@ In order to move past the login screen and see the rest of the site
 you will need to add Resident A to the database from the backend. 
 
 Then you should be able to login with the Resident A cridentials:
-UserName: Resident.A
-Password: Password
+*UserName: Resident.A
+*Password: Password
 
 I compleated the [Intro. to Web Design](https://github.com/4-Leafs-Code/IntroToWebDesignFP) Spring/22 course and rebuilt this site
 
