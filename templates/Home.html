@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MCCWRS</title>
+    <link
+      rel="icon"
+      href="/static/MCCWRS_Thumb.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<!--    /* Navigation */-->
+<div class="navigation-bar">
+    <div class="logo"><img src="/static/MCCWRS_LOGO.png" height="40px"></div>
+    <div class="buttons">
+        <a href="{{url_for('Home')}}" ><button>Home</button></a>
+        <a href="{{url_for('Account')}}" ><button>Account</button></a>
+        <a href="{{ url_for('logout') }}"><button>Log out</button></a>
+        <a href="{{ url_for('admin') }}"><button>Admin</button></a>
+    </div>
+</div>
+<!--    /* Page Title Block */-->
+<div class="home_page_title">
+  <img src="/static/phoenix.jpg" alt="Phoenix" style="width:85%;">
+  <div class="home_page_header">Maine Correctional Center Women Resident Services </div>
+</div>
+<!--    /* College Information Block */-->
+<div class="college_block">
+    <div class="college_title">
+        <h2 class="header">Facility Educational Services</h2>
+        <p class="sub_header"> Click the facility You are intrested in attending to learn more about this programs offered </p>
+        </div>
+    <div id="college_logos">
+        <div>
+            <h3 class="box_header"> UMA </h3>
+            <a href="{{url_for('UMA')}}"><img src="{{url_for('static', filename='UMA_Logo.jpg')}}" alt="UMA Logo"></a>
+<!--            <p>enter text here</p>-->
+            </div>
+        <div >
+            <h3 class="box_header"> WCCC</h3>
+            <a href="{{url_for('WCCC')}}"> <img src="{{url_for('static', filename='WCCC_Logo.jpg')}}" alt="WCCC Logo"></a>
+<!--            <p>enter text here</p>-->
+            </div>
+        <div>
+            <h3 class="box_header"> WRS </h3>
+            <a href="{{url_for('MCCWRS')}}"><img src="{{url_for('static', filename='MCCWRS_Thumb.png')}}" width="200" alt="WRS Logo"></a>
+<!--            <p>enter text here</p>-->
+            </div>
+        </div>
+</div>
+<!--/* Facility Informations Block*/-->
+<div class="facility_block">
+    <div class="facility_title">
+        <h2 class="header">Resident Facility Information</h2>
+        <p class="sub_header"> Please Click on your current housing facility for more information <br>spacificly pertaining
+            to that facility </p>
+    </div>
+    <div id="Facility">
+        <div>
+            <h3 class="box_header"> Womens Center </h3>
+            <a href="{{url_for('Womens_Center')}}"><img src="{{url_for('static', filename='inner_journey.jpg')}}" alt="WC Logo" height="200"></a>
+<!--            <p>enter text here</p>-->
+        </div>
+        <div>
+            <h3 class="box_header"> SMWRC </h3>
+            <a href="{{url_for('SMWRC')}}"> <img src="{{url_for('static', filename='inner_self.jpg')}}" alt="SMWRC Logo" height="200"></a>
+<!--            <p>enter text here</p>-->
+        </div>
+    </div>
+</div>
+
+<!--/* News Letter BLock*/-->
+
+<!--Page Footer-->
+
+</body>
+</html>

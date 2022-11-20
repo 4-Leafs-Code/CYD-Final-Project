@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Access</title>
+    <link
+      rel="icon"
+      href="/static/MCCWRS_Thumb.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!--    /* Page Title Block */-->
+<div class="home_page_title">
+    <img src="/static/phoenix.jpg" alt="Phoenix" style="width:100%;">
+    <div class="home_page_header">Maine Correctional Center Women Resident Services </div>
+    <form>
+        <button class="btn1" type="submit" formaction="{{url_for('login')}}">Login</button>
+<!--        <button class="btn2" type="submit" formaction="{{url_for('signup')}}">Sign Up</button>-->
+    </form>
+</div>
+</body>
+</html>

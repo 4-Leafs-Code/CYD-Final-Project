@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Account</title>
+    <link
+      rel="icon"
+      href="/static/MCCWRS_Thumb.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!--    /* Navigation */-->
+<div class="navigation-bar">
+    <div class="logo"><img src="/static/MCCWRS_LOGO.png" height="40px"></div>
+    <div class="buttons">
+        <a href="{{url_for('Home')}}" ><button>Home</button></a>
+        <a href="{{url_for('Account')}}" ><button>Account</button></a>
+        <a href="{{ url_for('logout') }}"><button>Log out</button></a>
+        <a href="{{ url_for('admin') }}"><button>Admin</button></a>
+    </div>
+</div>
+
+<div>
+    <h1>Welcome, {{ user.full_name }}!</h1>
+    <p>Here is all of your information.</p>
+    <p>Your User ID is: {{ user.id_num }} </p>
+    <p>Your username and password are: {{ user.username }} and  {{ user.password }} </p>
+    <p>Your administrative status is:
+        <br> Site Administrator: {{ user.site_administrator}}
+        <br> Facility Administrator: {{ user.facility_administrator}}</p>
+    <p>Your contact information is:
+        <br>{{user.email}}
+        <br>{{user.alt_email}}</p>
+</div>
+
+
+</body>
+

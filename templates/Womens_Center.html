@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Women's Center Information</title>
+    <link
+      rel="icon"
+      href="/static/MCCWRS_Thumb.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!--    /* Navigation */-->
+<div class="navigation-bar">
+    <div class="logo"><img src="/static/MCCWRS_LOGO.png" height="40px"></div>
+    <div class="buttons">
+        <a href="{{url_for('Home')}}" ><button>Home</button></a>
+        <a href="{{url_for('Account')}}" ><button>Account</button></a>
+        <a href="{{ url_for('logout') }}"><button>Log out</button></a>
+        <a href="{{ url_for('admin') }}"><button>Admin</button></a>
+    </div>
+</div>
+<div>
+    <img src="/static/coming-soon.jpg" alt="comming soon" width="100%" >
+</div>
+</body>
+</html>

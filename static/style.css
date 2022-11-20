@@ -1,0 +1,254 @@
+.navigation-bar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #9cf6fb;
+    height: 40px;
+    width: 98%;
+    z-index: 9;
+}
+
+.logo {
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.buttons {
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.coming_soon {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+  margin:4px 2px;
+}
+
+h1 {
+  font-family: Lucida Sans;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: Lucida Sans;
+  font-size: 24px;
+    text-align: center;
+
+}
+
+h3 {
+  font-family: Lucida Sans;
+  font-size: 16px;
+}
+
+h4 {
+  font-family: Lucida Sans;
+  font-size: 12px;
+}
+
+p {
+  font-family: Lucida Sans;
+  color: black;
+  font-size: 16px;
+
+}
+
+body {
+    background-color: #d0bdf4;
+}
+
+/* Page Block */
+.home_page_title {
+  position: relative;
+  text-align: center;
+  text-emphasis: #0a4b3e;
+  color: Black;
+  font-size: 60px;
+  padding-top: 50px;
+}
+
+.home_page_header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-width: 10px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(254,83,187, 0.5);
+
+}
+.page_title_block {
+    background-color: #779aef;
+    padding-top: 50px;
+}
+.page_header {
+    position: relative;
+    text-align: center;
+    color: #ff00ac;
+    font-size: 42px;
+
+}
+
+.page_subheader {
+    position: relative;
+    text-align: center;
+    color: #d0bdf4;
+    font-size: 36px;
+
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: #ff00ac;
+    font-size: 42px;
+
+}
+
+.sub_header {
+    position: relative;
+    text-align: center;
+    color: yellow;
+    font-size: 28px;
+
+}
+
+.attention {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+
+}
+
+.box_header {
+    position: relative;
+    text-align: center;
+    color: #ff00ac;
+    font-size: 32 px;
+}
+
+/* page title buttons */
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #ff00ac;
+    margin: 5em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+button:hover {
+  background-color: yellow;
+  color: white;
+}
+
+.home_page_title .btn1 {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: #01bfba;
+  font-size: 50px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.home_page_title .btn1:hover {
+  background-color: #01bfba;
+  color: white;
+}
+
+/* College Information Links Block */
+.college_block {
+    position: relative;
+    background-color: #779aef;
+    margin:10px 10px 10px 10px;
+    float:center;
+    border-radius: 10px;
+    border-color: #c491ef;
+}
+
+.college_title {
+    position: relative;
+    text-align: center;
+    background-color: #779aef;
+    border-radius: 10px;
+    border-color: #c491ef;
+}
+
+#college_logos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#779aef;
+    height:300px;
+    margin:15px 15px 15px 15px;
+    margin-color: #c491ef;
+    border-radius: 10px;
+    border-color: #c491ef;
+}
+
+.facility_block {
+    position: relative;
+    background-color: #779aef;
+    margin:10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.facility_title {
+    position: relative;
+    text-align: center;
+    background-color: #779aef;
+    border-radius: 10px;
+}
+
+#Facility {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#779aef;
+    height:300px
+}
+
+.blocks {
+    margin: 60px;
+    justify-content: flex;
+    border-left-width: 10px;
+    text-align: center;
+}
