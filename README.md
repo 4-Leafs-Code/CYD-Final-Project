@@ -1,9 +1,9 @@
 # CYD-Final-Project
-I built a website called Women Residents Services as the final project 
-for the Fall/21 Code Your Dreams course. I had only learned to code about 3 months
-prior to this project. 
+I built a website called Women Residents Services as the final project for the Fall/21 Code Your Dreams course. 
+I had only learned to code about 3 months prior to this project. 
 
-This site was intended for a secure facility. There are 2 levels of Administrators.
+This site was intended for a secure facility. 
+There are 2 levels of Administrators.
 Only Administrators are able to add user accounts. 
 
 I wrote in python, flask, and sqlalchemy on the backend.
@@ -20,7 +20,7 @@ Then you should be able to login with the Resident A cridentials:
 * UserName: Resident.A
 * Password: Password
 
-I compleated the [Intro. to Web Design](https://github.com/4-Leafs-Code/IntroToWebDesignFP) Spring/22 course and rebuilt this site
+I rebuilt this site for Spring/22 [Intro. to Web Design](https://github.com/4-Leafs-Code/IntroToWebDesignFP) course.
 
 
 Note to self: pip install sqlalchemy and flask_login.
