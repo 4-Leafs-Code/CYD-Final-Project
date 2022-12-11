@@ -9,19 +9,28 @@ Only Administrators are able to add user accounts.
 I wrote in python, flask, and sqlalchemy on the backend.
 I wrote in html, and css with a splash of bootstrap and javascript. 
 
-This site is not entirly functional at the moment. This is only the MVP.
+This site is functional but please remember this is only the MVP.
 
-There is not a database file yet. 
+First thing:
+run: pip install -r requirements.txt in your shell.
+    
+There is a database file. To add more users:
+* Open database.py   
+* Uncomment line 91
+* Run database.py
+* Comment line 91 again
+* Run main.py
+* click on address in terminal
 
 In order to move past the login screen and see the rest of the site
-you will need to add Resident A to the database from the backend. 
+you will need to add a user to the database from the backend or use   
+the credentials below to login. 
 
-Then you should be able to login with the Resident A cridentials:
+Then you should be able to log in with the Resident A credentials:
 * UserName: Resident.A
 * Password: Password
 
 I rebuilt this site for Summer/22 [Intro. to Web Design](https://github.com/4-Leafs-Code/IntroToWebDesignFP) course.
 
 
-Note to self: pip install sqlalchemy and flask_login.
-Learn how to make a requirements file.
+

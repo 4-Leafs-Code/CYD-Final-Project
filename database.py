@@ -1,7 +1,7 @@
-from model import Base, User
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from flask_login import UserMixin, login_user, login_manager, login_required, logout_user, current_user
+
+from modal import Base, User
 
 engine = create_engine('sqlite:///users.db', connect_args={"check_same_thread": False})
 Base.metadata.create_all(engine)
@@ -88,6 +88,6 @@ def delete_user(full_name):
 #The are to add to the database and check the user info.
 
 # print(query_all())
-#add_user(123456, 'Resident A', 'Resident.A', 'Password', True, True, None, None))
+# add_user(123456, 'Resident A', 'Resident.A', 'Password', True, True, None, None)
 
 # print(get_admin_from_database('Resident.A'))
